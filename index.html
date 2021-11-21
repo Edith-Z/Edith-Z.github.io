@@ -9,16 +9,124 @@
                 border:0px solid #666;
                 height:500px;
                 padding:20px;
-                background-color:#d8e6e8;
+                background-color:#d8e6e8;                
             }
+          
+          @-webkit-keyframes rotation {
+            from {
+              -webkit-transform: rotate(0deg);
+            }
+            to {
+              -webkit-transform: rotate(360deg);
+            }
+          }
+          .xuanzhuan1 {
+            -webkit-transform: rotate(360deg);
+            animation: rotation 1s linear infinite;
+            -moz-animation: rotation 1s linear infinite;
+            -webkit-animation: rotation 1s linear infinite;
+            -o-animation: rotation 1s linear infinite;
+          }
+          .xuanzhuan2 {
+            -webkit-transform: rotate(360deg);
+            animation: rotation 2s linear infinite;
+            -moz-animation: rotation 2s linear infinite;
+            -webkit-animation: rotation 2s linear infinite;
+            -o-animation: rotation 2s linear infinite;
+          }
+          .xuanzhuan3 {
+            -webkit-transform: rotate(360deg);
+            animation: rotation 3s linear infinite;
+            -moz-animation: rotation 3s linear infinite;
+            -webkit-animation: rotation 3s linear infinite;
+            -o-animation: rotation 3s linear infinite;
+          }
+           .xuanzhuan4 {
+            -webkit-transform: rotate(360deg);
+            animation: rotation 4s linear infinite;
+            -moz-animation: rotation 4s linear infinite;
+            -webkit-animation: rotation 4s linear infinite;
+            -o-animation: rotation 4s linear infinite;
+          }
+            .xuanzhuan5 {
+            -webkit-transform: rotate(360deg);
+            animation: rotation 5s linear infinite;
+            -moz-animation: rotation 5s linear infinite;
+            -webkit-animation: rotation 5s linear infinite;
+            -o-animation: rotation 5s linear infinite;
+          }
+            .xuanzhuan6 {
+            -webkit-transform: rotate(360deg);
+            animation: rotation 6s linear infinite;
+            -moz-animation: rotation 6s linear infinite;
+            -webkit-animation: rotation 6s linear infinite;
+            -o-animation: rotation 6s linear infinite;
+          }
+          .wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}
+#img1 {
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+#img2 {
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+          #img3 {
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+            #img4 {
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+            #img5 {
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+            #img6 {
+    width: 100%;
+    max-width: 300px;
+    float: left;
+}
+          
         </style>
     </head>
     <body>
       <h1 style="font-size:20px;color:#304c50;">
         Hi, I'm Edith Yidan ZHENG (郑一丹), a student, a researcher, an artist, ...
       </h1>
-      <div align="center">
-      <img  src="https://raw.githubusercontent.com/Edith-Z/Edith-Z.github.io/main/portrait.png" alt="Well, I guess there is something wrong with this image..." style="width:min(300px,100%)"> 
-      </div>
+      
+     <div class="wrapper">
+  <div style="position: relative;">
+    <img src="/images/img1.png" id="img1" class="xuanzhuan1">
+  </div>
+  <div style="position: absolute;">
+    <img src="/images/img2.png" id="img2" class="xuanzhuan2">
+  </div>
+  <div style="position: absolute;">
+    <img src="/images/img3.png" id="img3" class="xuanzhuan3">
+  </div>
+   <div style="position: absolute;">
+    <img src="/images/img4.png" id="img4" class="xuanzhuan4">
+  </div>
+         <div style="position: absolute;">
+    <img src="/images/img5.png" id="img5" class="xuanzhuan5">
+  </div>
+         <div style="position: absolute;">
+    <img src="/images/img6.png" id="img6" class="xuanzhuan6">
+  </div>
+</div>
+
+
+      
     </body>
 </html>
